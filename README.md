@@ -50,6 +50,23 @@ This project integrates crisis text data and weather event data. It uses AI and 
     *   Linked with weather data (e.g., weather severity: High).
     *   Suggested priority: High → Allocate rescue teams and food supplies to City A.
 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.98      0.96      0.97       135
+           1       0.99      1.00      0.99       778
+           2       0.97      0.95      0.96      2172
+           3       0.98      0.99      0.98      4863
+
+    accuracy                           0.98      7948
+   macro avg       0.98      0.97      0.98      7948
+weighted avg       0.98      0.98      0.98      7948
+
+Accuracy: 0.978610971313538
+Precision: 0.9785754301415144
+Recall: 0.978610971313538
+F1 Score: 0.978546910078366
+
 ## Technologies Used
 
 *   **Python:** primary programming language.
